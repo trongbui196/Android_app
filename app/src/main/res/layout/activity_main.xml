@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/_9152323_travel_around_the_world_concept_with_car_tickets_and_camera_cartoon_vector_illustration"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Lựa chọn điểm đến"
+        android:textColor="@color/black"
+        android:id="@+id/textv1"
+        android:textSize="40sp"></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/btn1"
+        android:text="Nội địa"
+        android:textSize="25sp"
+        android:layout_centerVertical="true"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/btn2"
+        android:text="Quốc tế"
+        android:textSize="25sp"
+        android:layout_above="@id/btn1"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:id="@+id/btn3"
+        android:text="Thành phố"
+        android:textSize="25sp"
+        android:layout_below="@id/btn1"
+        ></Button>
+</RelativeLayout>
